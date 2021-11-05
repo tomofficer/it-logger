@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import LogItem from './LogItem';
+import Preloader from '../layout/Preloader';
 
 
 const Logs = () => {
@@ -22,7 +23,7 @@ const Logs = () => {
     };
 
     if (loading) {
-        return <h4>Loading...</h4>
+        return <Preloader />
     };
 
 
