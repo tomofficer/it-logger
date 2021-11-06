@@ -1,11 +1,11 @@
 {
   "logs": [
     {
-      "message": "Hard drive failed in work station 002",
-      "attention": true,
-      "tech": "Sara Wilson",
-      "date": "2021-11-06T08:44:59.776Z",
-      "id": 2
+      "id": 2,
+      "message": "Fixed hard drive on workstation 002",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2021-11-06T18:22:31.562Z"
     },
     {
       "message": "Changed network card in server 007",
