@@ -24,6 +24,7 @@ const App = () => {
   });
 
   return (
+    <div className="App">
     <Provider store={store}>
       <Fragment>
         <SearchBar />
@@ -37,6 +38,7 @@ const App = () => {
         </div>
       </Fragment>
       </Provider>
+      </div>
   );
 }
 
